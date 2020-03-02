@@ -23,3 +23,13 @@
   - Historic fiat rates for non-(EURO,USD) currencies (csv-files for automatic entry)
   - MySQL version 5.7
   - MySQL gui client, such as MySQL Workbench
+  
+## Procedure:
+  - Collect and import rate data, consolidate into one table
+  - Collect and import trade data (Kraken provided. Also have code for Poloniex, Mercatox, Shapeshift and AnycoinDirect.eu)
+  - Unite trade data into one table. (Not provided here)
+  - Consolidate trade data and rate data to produce cumulative cost of acquiry, sales and trading fees. (Not provided here)
+  - Run predictive trade decision queries for managing tax-derived profits and losses in a controlled manner. (Not provided here)
+  - Produce tax report grouped by year, currency, profit/loss. (Not provided here)
+  - ???
+  - Profit.
