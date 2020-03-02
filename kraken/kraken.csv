@@ -1,0 +1,3 @@
+https://www.kraken.com/ -> history -> export -> ledger
+Hint: Append ledger data to the end of the file.
+txid,refid,time,type,aclass,asset,amount,fee,balance
