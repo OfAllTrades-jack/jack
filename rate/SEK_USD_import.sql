@@ -12,7 +12,7 @@ LOAD DATA INFILE '/var/lib/mysql-files/SEK_USD_RIKSBANKEN.csv'
 INTO TABLE sekusd
 FIELDS TERMINATED BY ';'
 LINES TERMINATED BY '\n'
-IGNORE 1 ROWS
+IGNORE 3 ROWS
 (@date,@info1,@info2,@price)
 SET date = STR_TO_DATE(@date, '%Y-%m-%d'),
 price=@price;
